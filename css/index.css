@@ -1,0 +1,278 @@
+body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width:991px) {
+    .product-list li {
+        width: 25% !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .product-list li {
+        width: 33.33% !important;
+    }
+    .header .search {
+        display: none;
+    }
+}
+
+
+/* 顶部运费模块 */
+
+.shipping-instructions {
+    height: 46px;
+    line-height: 46px;
+    background-color: #f2f2f2;
+}
+
+
+/* 顶部logo、导航模块 */
+
+.header {
+    height: 88px;
+    padding: 30px 0;
+}
+
+.header li {
+    float: left;
+    padding: 0 25px;
+}
+
+.header a:hover {
+    color: #f15990;
+}
+
+.header .search {
+    position: relative;
+}
+
+.header .spacer {
+    position: absolute;
+    top: -10px;
+    display: inline-block;
+    width: 1px;
+    height: 27px;
+    line-height: 27px;
+    background-color: #c1c1c1;
+}
+
+.header .glyphicon {
+    padding-left: 18px;
+}
+
+.search .shopping-bag {
+    position: relative;
+}
+
+.search .shopping-bag::after {
+    content: '1';
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: red;
+    border-radius: 2px;
+}
+
+
+/* 轮播图模块 */
+
+.banner img {
+    width: 100%;
+}
+
+
+/* 新品上市模块 */
+
+.new-arrival {
+    padding: 50px;
+}
+
+.new-arrival img {
+    width: 100%;
+}
+
+.new-arrival .one,
+.new-arrival .two {
+    height: 50%;
+}
+
+.new-arrival .one {
+    margin-bottom: 25px;
+}
+
+
+/* 产品模块 */
+
+.product-title {
+    margin: 45px 0;
+}
+
+.product-list {
+    margin: 0 50px !important;
+}
+
+.product-list li {
+    float: left;
+    width: 20%;
+    padding-right: 12px;
+}
+
+.product-list li img {
+    width: 100%;
+}
+
+.product-list li p {
+    text-align: center;
+}
+
+.product-list .trade-name {
+    margin: 38px 0 24px 0;
+}
+
+.product-list .price {
+    margin-bottom: 60px;
+}
+
+.product-button {
+    margin-bottom: 130px;
+}
+
+.product-button button {
+    width: 250px;
+    height: 60px;
+    color: white;
+    background-color: #f1593b;
+}
+
+
+/* 通讯模块 */
+
+.news-letter {
+    height: 320px;
+    background-color: #fafafa;
+}
+
+.news-letter h3 {
+    padding-top: 42px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.news-letter p {
+    padding-bottom: 46px;
+    font-size: 20px;
+    color: #666a7d;
+}
+
+.news-letter input {
+    /* width: 60% !important; */
+    /* width: 630px !important; */
+    height: 42px;
+    border-right: 0 none;
+}
+
+.news-letter button {
+    width: 62px;
+    height: 42px;
+    background-color: #f1593c;
+    color: #fff;
+    margin-left: -10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* 照片模块 */
+
+.picture img {
+    width: 16.666%;
+    margin-left: -4px !important;
+}
+
+
+/* 底部联系方式模块 */
+
+.mod_contact {
+    padding: 60px 50px 40px;
+    /* 设置字母间距 */
+    letter-spacing: 1px;
+    color: #746466;
+}
+
+.mod_contact .text li img {
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.mod_contact .text p {
+    line-height: 24px;
+}
+
+.mod_contact .text li {
+    float: left;
+    padding: 5px;
+}
+
+.mod_contact ul {
+    padding: 0 !important;
+}
+
+.mod_contact .useful-links li {
+    float: left;
+    width: 50%;
+    height: 34px;
+    line-height: 34px;
+}
+
+.mod_contact .contact-us span {
+    padding: 10px 10px 0 0;
+}
+
+.mod_contact .contact-us li {
+    float: left;
+    padding-right: 6px;
+}
+
+.mod_contact h3 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.contact-us img {
+    width: 100%;
+}
+
+
+/*底部版权模块*/
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
